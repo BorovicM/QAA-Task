@@ -1,0 +1,18 @@
+{
+    "id": 10,
+    "category": {
+      "id": 10,
+      "name": "test1"
+    },
+    "name": "Blacky",
+    "photoUrls": [
+      "photo.jpg"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "test2"
+      }
+    ],
+    "status": "available"
+  }
