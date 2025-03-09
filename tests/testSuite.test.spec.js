@@ -6,7 +6,7 @@ import petData from '../petData.json'
 
 let careerPage;
 
-test.describe("General Tests @careerPage", () => {
+test.describe("Career Page Tests", () => {
   test.beforeEach(async ({ page }) => {
   careerPage = new CareerPage(page);
   });
@@ -26,7 +26,7 @@ test.describe("General Tests @careerPage", () => {
 
 
 
-    test.describe('Pet Controller CRUD Operations', () => {
+ test.describe('Pet Controller CRUD Operations', () => {
       let apiController;
     
       test.beforeEach(async ({ page }) => {
